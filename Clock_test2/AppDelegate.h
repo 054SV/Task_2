@@ -10,6 +10,8 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@property(strong,nonatomic) NSNumber* Theme;
+
 @property (strong, nonatomic) UIWindow *window;
 
 @end

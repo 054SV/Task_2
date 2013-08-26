@@ -9,12 +9,23 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize Theme;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    Theme = [NSNumber numberWithInt:0];
     // Override point for customization after application launch.
+    UIImage* bgImg = [UIImage imageNamed:@"IMG_0415_2_2.JPG"];
+    [[UITabBar appearance] setBackgroundImage:bgImg];
+    
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor whiteColor], UITextAttributeTextColor, nil] forState:UIControlStateNormal];
+    
+    UIColor *hlColor = [UIColor colorWithRed:230.0/255.0 green:120.0/255.0 blue:65.0/255.0 alpha:0.7/1.0];
+    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:hlColor, UITextAttributeTextColor, nil] forState:UIControlStateHighlighted];
+
     return YES;
 }
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {

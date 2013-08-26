@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6199706017CB7781000D9533 /* brush.png in Resources */ = {isa = PBXBuildFile; fileRef = 6199705617CB7781000D9533 /* brush.png */; };
+		6199706117CB7781000D9533 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6199705717CB7781000D9533 /* clock.png */; };
+		6199706217CB7781000D9533 /* IMG_0415_2_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6199705817CB7781000D9533 /* IMG_0415_2_2.JPG */; };
+		6199706317CB7781000D9533 /* IMG_0415_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6199705917CB7781000D9533 /* IMG_0415_2.JPG */; };
+		6199706417CB7781000D9533 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6199705A17CB7781000D9533 /* snow.png */; };
+		6199706517CB7781000D9533 /* spring.png in Resources */ = {isa = PBXBuildFile; fileRef = 6199705B17CB7781000D9533 /* spring.png */; };
+		6199706617CB7781000D9533 /* Summer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6199705C17CB7781000D9533 /* Summer.jpg */; };
+		6199706717CB7781000D9533 /* Summer2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6199705D17CB7781000D9533 /* Summer2.jpg */; };
+		6199706817CB7781000D9533 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 6199705E17CB7781000D9533 /* sun.png */; };
+		6199706917CB7781000D9533 /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 6199705F17CB7781000D9533 /* tree.png */; };
 		61CD114117C4BE280067F0B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CD114017C4BE280067F0B8 /* UIKit.framework */; };
 		61CD114317C4BE280067F0B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CD114217C4BE280067F0B8 /* Foundation.framework */; };
 		61CD114517C4BE280067F0B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CD114417C4BE280067F0B8 /* CoreGraphics.framework */; };
@@ -23,9 +33,20 @@
 		61CD116417C4BE290067F0B8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CD116317C4BE290067F0B8 /* SecondViewController.m */; };
 		61CD116617C4BE290067F0B8 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CD116517C4BE290067F0B8 /* second.png */; };
 		61CD116817C4BE290067F0B8 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CD116717C4BE290067F0B8 /* second@2x.png */; };
+		61CD117417C4BE4D0067F0B8 /* IMG_0415.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 61CD116F17C4BE4D0067F0B8 /* IMG_0415.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6199705617CB7781000D9533 /* brush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brush.png; sourceTree = "<group>"; };
+		6199705717CB7781000D9533 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		6199705817CB7781000D9533 /* IMG_0415_2_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0415_2_2.JPG; sourceTree = "<group>"; };
+		6199705917CB7781000D9533 /* IMG_0415_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0415_2.JPG; sourceTree = "<group>"; };
+		6199705A17CB7781000D9533 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		6199705B17CB7781000D9533 /* spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spring.png; sourceTree = "<group>"; };
+		6199705C17CB7781000D9533 /* Summer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Summer.jpg; sourceTree = "<group>"; };
+		6199705D17CB7781000D9533 /* Summer2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Summer2.jpg; sourceTree = "<group>"; };
+		6199705E17CB7781000D9533 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		6199705F17CB7781000D9533 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
 		61CD113D17C4BE280067F0B8 /* Clock_test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock_test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CD114017C4BE280067F0B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		61CD114217C4BE280067F0B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +69,7 @@
 		61CD116317C4BE290067F0B8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		61CD116517C4BE290067F0B8 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		61CD116717C4BE290067F0B8 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		61CD116F17C4BE4D0067F0B8 /* IMG_0415.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0415.JPG; path = "../../../../Pictures/картинки/IMG_0415.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +116,17 @@
 		61CD114617C4BE280067F0B8 /* Clock_test2 */ = {
 			isa = PBXGroup;
 			children = (
+				6199705617CB7781000D9533 /* brush.png */,
+				6199705717CB7781000D9533 /* clock.png */,
+				6199705817CB7781000D9533 /* IMG_0415_2_2.JPG */,
+				6199705917CB7781000D9533 /* IMG_0415_2.JPG */,
+				6199705A17CB7781000D9533 /* snow.png */,
+				6199705B17CB7781000D9533 /* spring.png */,
+				6199705C17CB7781000D9533 /* Summer.jpg */,
+				6199705D17CB7781000D9533 /* Summer2.jpg */,
+				6199705E17CB7781000D9533 /* sun.png */,
+				6199705F17CB7781000D9533 /* tree.png */,
+				61CD116F17C4BE4D0067F0B8 /* IMG_0415.JPG */,
 				61CD114F17C4BE280067F0B8 /* AppDelegate.h */,
 				61CD115017C4BE280067F0B8 /* AppDelegate.m */,
 				61CD115817C4BE290067F0B8 /* MainStoryboard.storyboard */,
@@ -184,6 +217,17 @@
 				61CD116117C4BE290067F0B8 /* first@2x.png in Resources */,
 				61CD116617C4BE290067F0B8 /* second.png in Resources */,
 				61CD116817C4BE290067F0B8 /* second@2x.png in Resources */,
+				61CD117417C4BE4D0067F0B8 /* IMG_0415.JPG in Resources */,
+				6199706017CB7781000D9533 /* brush.png in Resources */,
+				6199706117CB7781000D9533 /* clock.png in Resources */,
+				6199706217CB7781000D9533 /* IMG_0415_2_2.JPG in Resources */,
+				6199706317CB7781000D9533 /* IMG_0415_2.JPG in Resources */,
+				6199706417CB7781000D9533 /* snow.png in Resources */,
+				6199706517CB7781000D9533 /* spring.png in Resources */,
+				6199706617CB7781000D9533 /* Summer.jpg in Resources */,
+				6199706717CB7781000D9533 /* Summer2.jpg in Resources */,
+				6199706817CB7781000D9533 /* sun.png in Resources */,
+				6199706917CB7781000D9533 /* tree.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +364,7 @@
 				61CD116D17C4BE290067F0B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @interface FirstViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *MyLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (weak,nonatomic) NSNumber* Style;
+@property (weak,nonatomic) NSNumber* Seconds;
+
+-(void)UpdateTime;
+-(void)ChangeTextStyle;
+
 
 @end

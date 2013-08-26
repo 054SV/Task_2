@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @interface SecondViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISwitch *Switch;
+- (IBAction)Style3:(id)sender;
+- (IBAction)Style2:(id)sender;
+- (IBAction)Style1:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *SmallLabel;
+@property (weak, nonatomic) NSNumber* i;
+
+-(void) UpdateTextsmall:(NSInteger) Index;
+@property (weak, nonatomic) IBOutlet UILabel *Label;
+@property (weak, nonatomic) IBOutlet UIImageView *image2;
 
 @end
